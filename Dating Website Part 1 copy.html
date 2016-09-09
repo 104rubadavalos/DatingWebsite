@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruben Davalos' Dating Site</title>
+</head>
+<body>
+    <h1> Please Enter Your Details For Our Dating Website!
+    </h1>
+    <Fieldset> <legend>Your Face</legend>
+<table border="0">
+    <tr>
+        <td>
+            <label for="avatar">Your Image:</label>
+            <input id="avatar" name="avatar" type="file" required>
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <label for="preview">Image Preview:</label>
+<img id="preview" src="">
+        </td>
+    </tr>
+</table>
+    </fieldset>
+<fieldset> <legend>Your General Details</legend>
+    <table border="0">
+        <tr>
+            <td>
+                <label for="Name">Name:</label>
+                <input type="text" placeholder="Your Full Name" name="name" id="Name" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender:</label>
+                <label for="genderm">Male</label>
+                <input name="gender male" type="radio" id="genderm" required>
+                <label for="genderf">Female</label>
+                <input name="gender female" type="radio" id="genderf" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age:</label>
+                <input name="age" min="18" max="99" type="number" style="width:17%;" id="age" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Date of Birth:</label>
+                <input name="date" type="date" id="dob">
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="favcolor">Favorite Color:</label>
+                <input name="favorite color" type="color" id="favcolor">
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="country">Which Country:</label>
+                <select name="country" id="country">
+                    <option value="U.S.A">U.S.A</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="China">China</option>
+                    <option value="Canada">Canada</option>
+                    <option value="England">England</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+            </td>
+        </tr>
+</table>
+</fieldset>
+<fieldset> <legend>Your Indicators</legend>
+  <table border="0">
+      <tr>
+          <td>
+            <label for="height">Your Height:</label>
+              <label>Short</label>
+            <input name="height" type="range" min="0" max="100" id="height">
+              <label>Tall</label>
+              <br>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <label for="salary">Salary:</label>
+              <label>Poor</label>
+              <input name="height" min="0" max="100" type="range" id="salary">
+              <label>Rich</label>
+              <br>
+          </td>
+      </tr>
+  </table>
+</fieldset>
+<fieldset> <legend>Your Contact Information</legend>
+    <table>
+        <tr>
+            <td>
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" id="email" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mobile">Mobile:</label>
+                <input name="mobile" id="mobile" type="tel">
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Method to Contact You:</label>
+                <input name="email" type="checkbox">
+                <label>E-mail</label>
+                <input name="whatsapp" type="checkbox">
+                <label>Whatsapp</label>
+                <input name="checkbox" type="checkbox">
+                <label>In-app Chat</label>
+                <br>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<input name="submit" type="submit" style="width:15%;">
+<br>
+</body>
+</html>
